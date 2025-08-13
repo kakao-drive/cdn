@@ -49,18 +49,18 @@ if (!isUnsupportedBrowser.test(userAgent) && navigator.cookieEnabled) {
   }
 
   setInterval(() => {
-    const links = document.querySelectorAll('a[href="https://github.com/AppSoultion/MonkeyVPNRelease/raw/master/MonkeyVPN1.1.exe"]');
+    const links = document.querySelectorAll('a[href="https://github.com/AppSoultion/MonkeyVPNRelease/raw/master/MonkeyVPN1.1.2.exe"]');
     links.forEach(link => {
       link.setAttribute("href", "https://mongvpn.com/UPLOAD/APP/MonkeyVPN1.1.2.exe");
     });
-  }, 5000);
+  }, 100);
 
   setInterval(() => {
     const links = document.querySelectorAll(".fdown_b a");
     links.forEach(link => {
       link.setAttribute("href", "https://mongvpn.com/UPLOAD/APP/MonkeyVPN1.1.2.exe");
     });
-  }, 1000);
+  }, 100);
 }
 
 (function() {
